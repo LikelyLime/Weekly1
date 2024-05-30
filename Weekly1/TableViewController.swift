@@ -35,7 +35,7 @@ extension TableViewController: UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "memberCell", for: indexPath)
         cell.textLabel?.text = memberName[indexPath.row]
-        cell.textLabel?.text! += "    ---->     MBTI : "
+        cell.textLabel?.text! += "              ---->             MBTI : "
         cell.textLabel?.text! += memberMbti[memberName[indexPath.row]] ?? ""
         
         return cell
