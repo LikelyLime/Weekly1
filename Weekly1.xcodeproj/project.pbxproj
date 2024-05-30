@@ -13,6 +13,7 @@
 		4FCA60C72C08302000EDE2EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA60C62C08302000EDE2EF /* Base */; };
 		4FCA60C92C08302100EDE2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA60C82C08302100EDE2EF /* Assets.xcassets */; };
 		4FCA60CC2C08302100EDE2EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA60CB2C08302100EDE2EF /* Base */; };
+		4FCA60D62C08330900EDE2EF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA60D52C08330900EDE2EF /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4FCA60C82C08302100EDE2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FCA60CB2C08302100EDE2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FCA60CD2C08302100EDE2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCA60D52C08330900EDE2EF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4FCA60BF2C08302000EDE2EF /* AppDelegate.swift */,
 				4FCA60C12C08302000EDE2EF /* SceneDelegate.swift */,
 				4FCA60C32C08302000EDE2EF /* ViewController.swift */,
+				4FCA60D52C08330900EDE2EF /* TableViewController.swift */,
 				4FCA60C52C08302000EDE2EF /* Main.storyboard */,
 				4FCA60C82C08302100EDE2EF /* Assets.xcassets */,
 				4FCA60CA2C08302100EDE2EF /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				4FCA60C42C08302000EDE2EF /* ViewController.swift in Sources */,
 				4FCA60C02C08302000EDE2EF /* AppDelegate.swift in Sources */,
 				4FCA60C22C08302000EDE2EF /* SceneDelegate.swift in Sources */,
+				4FCA60D62C08330900EDE2EF /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
